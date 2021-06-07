@@ -4,6 +4,9 @@
   grid-template-rows: repeat(2, 1fr);
   justify-content: space-between;
   align-content: space-between;
-  margin: 0 auto;
   width: 944px;
+
+  &--position {
+    margin: 0 auto;
+  }
 }
