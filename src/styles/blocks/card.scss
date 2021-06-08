@@ -6,9 +6,17 @@
 
   &__imac-logo {
     display: block;
-    width: 160px;
-    height: 134px;
-    margin: 32px auto 40px;
+    width: 168px;
+    height: 166px;
+    padding: 16px 4px;
+    margin: 16px auto 24px;
+
+    transition: transform 400ms;
+
+    &:hover {
+      transform: scale(1.2);
+      border: 3px solid #f3f3f3;
+    }
   }
 
   &__title {
@@ -84,6 +92,8 @@
       color: #fff;
       text-decoration: none;
       text-transform: uppercase;
+
+      transition-duration: 800ms;
     }
 
     &-link:hover {
